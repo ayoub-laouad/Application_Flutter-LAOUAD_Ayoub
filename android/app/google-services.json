@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121846000847",
+    "project_id": "formulaire-917f5",
+    "storage_bucket": "formulaire-917f5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121846000847:android:310c3af7730651775fdbba",
+        "android_client_info": {
+          "package_name": "com.example.flutter_formulaire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHgCDXFAilkqkHCfUzyMfLSO_8ehw55U8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

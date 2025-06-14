@@ -1,0 +1,38 @@
+name: flutter_formulaire
+description: A new Flutter project.
+publish_to: 'none' 
+version: 0.1.0
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.2
+  speech_to_text: ^7.0.0
+  flutter_dotenv: ^5.1.0
+  image_picker: ^1.0.4
+  http: ^1.1.0
+  cross_file: ^0.3.3
+  flutter_tts: ^4.2.3
+  tflite_flutter: ^0.11.0
+  image: ^4.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/google.png
+    - assets/facebook.png
+    - assets/.env
+    - assets/upload.png
+    - assets/model/mobilenet_v1_1.0_224.tflite
+    - assets/model/labels.txt
